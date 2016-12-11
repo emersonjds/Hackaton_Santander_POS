@@ -1,0 +1,107 @@
+
+html, body {
+	height: 100%;
+	width: 100%;	
+}
+
+body {
+	overflow-y: hidden;
+	-webkit-user-select:none;
+}
+
+main {
+	height: 100%;
+	background-color: #29af9e;
+}
+
+.card .card-content {
+	padding: 5px 20px;
+}
+
+.card .card-action {
+	padding: 5px;
+}
+
+.tela-qrcode {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.dados-de-compra {
+	background-color: #29af9e;
+}
+
+.titles {
+	height: 70%;
+	background: url(../img/ensino.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+.botoes {
+	height: 30%;
+	margin-top: 10%;
+}
+
+.btn {
+	width: 100%;
+}
+
+.title-card {
+	color: #000000 !important;
+	text-align: center;
+}
+
+.title-compras {
+	margin-bottom: 0;
+}
+
+.btn-confirmar, .btn-cancelar {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.btn-ok-compra-confirmada {
+	background-color: #ff5b1f;
+	color: #fff;
+}
+
+.pagar {
+	margin-bottom: 10px;
+}
+
+.cancelar, .pagar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.produtos-comprados {
+	background-color: lightgray;
+	color: #000000;
+	border: 2px solid;
+}
+
+.valor-compra .row {
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-color: #ff8a80;
+	font-size: 18px;
+}
+
+.title-qrcode, .title-confirma-pagamento {
+	text-align: center;
+	color: #fff;
+}
+
+.img-logo-qrcode img {
+	margin-left: 4em;
+}
+
+.imagem-qrcode img {
+	margin-left: 2em;
+}
